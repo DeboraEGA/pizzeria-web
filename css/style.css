@@ -1,0 +1,72 @@
+/* Impostazioni generali */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+/* Intestazione */
+header {
+    background-color: #b22222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Menu di navigazione */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenuto principale */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+/* Sezioni */
+section {
+    margin-bottom: 40px;
+}
+
+/* Titoli */
+h2 {
+    color: #b22222;
+    text-align: center;
+}
+
+/* Pizze */
+#menu > div {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+#menu h3 {
+    color: #b22222;
+}
+
+/* Prezzo */
+#menu p:last-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
