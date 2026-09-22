@@ -70,3 +70,35 @@ footer {
     text-align: center;
     padding: 15px;
 }
+/* Contenitore delle pizze */
+.menu-pizze {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Card della pizza */
+.pizza {
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Immagine della pizza */
+.pizza-immagine {
+    font-size: 60px;
+}
+
+/* Nome della pizza */
+.pizza h3 {
+    color: #b22222;
+}
+
+/* Prezzo */
+.prezzo {
+    font-size: 20px;
+    font-weight: bold;
+}
